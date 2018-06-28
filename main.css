@@ -31,8 +31,10 @@ a img {
     margin: 20px;
 }
 a:hover i{
-    color: #999999;
+    color: darkgray;
+    transition: 0.25s;
 }
+
 .logo{
     display: block;
     font-family: 'Hind', sans-serif;
