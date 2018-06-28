@@ -1,0 +1,87 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+width: 1641px;
+display: inline-block;
+}
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+header{
+width: 1641px;
+height: 344px;
+background-color: #212429;
+}
+.container{
+    width: 1530px;
+    height: 55px;
+    margin: 0 54px;
+}
+div.menu{
+width: 60px;
+height: 55px;
+border-left: 1px solid #3c3c3c;
+border-right: 1px solid #3c3c3c;
+float: left;
+}
+a img {
+    width: 20px;
+    height: 13px;
+    margin: 20px;
+}
+a:hover i{
+    color: #999999;
+}
+.logo{
+    display: block;
+    font-family: 'Hind', sans-serif;
+    font-size: 22px;
+    color: #fefefe;
+    text-transform: uppercase;
+    letter-spacing: 4.51px;
+    width: 300px; 
+    height: 30px; 
+    position: absolute;
+    top: 21px;
+    left: 782px;
+    
+}
+.logo img{
+    width: 76px;
+}
+.logo span {
+    margin-left: -2px;
+}
+.socials-right-column{
+    float:right;
+}
+.socials {
+    border-left: 1px solid #3c3c3c;
+    float: left;
+    height: 55px;
+    min-width: 49px;
+}
+.socials:last-child{
+    border-right:1px solid #3c3c3c; 
+
+}
+
+i{
+font-size: 15px;
+font-family: FontAwesome;
+color: white;
+margin: 20px 20.3px; 
+}
+/*tumblr = f173
+twit = f099
+fb= f39e
+rss = f09e
+search = f002
+<i class="fas fa-rss"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-tumblr"></i>
+<i class="fab fa-facebook-f"></i>
+<i class="fas fa-search"></i>
+
+*/
