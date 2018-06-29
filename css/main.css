@@ -1,6 +1,15 @@
 @font-face {
-    font-family: Hind;
-    src: url(../fonts/Hind-SemiBold.ttf);
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/hind-v8-latin-600.eot');
+    /* IE9 Compat Modes */
+    src: local('Hind SemiBold'), local('Hind-SemiBold'), url('../fonts/hind-v8-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/hind-v8-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/hind-v8-latin-600.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/hind-v8-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/hind-v8-latin-600.svg#Hind') format('svg');
+    /* Legacy iOS */
 }
 
 body {
