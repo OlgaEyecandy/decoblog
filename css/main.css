@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/hind-v8-latin-600.eot');
+    /* IE9 Compat Modes */
+    src: local('Hind SemiBold'), local('Hind-SemiBold'), url('../fonts/hind-v8-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/hind-v8-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/hind-v8-latin-600.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/hind-v8-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/hind-v8-latin-600.svg#Hind') format('svg');
+    /* Legacy iOS */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1641px;
+    display: inline-block;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header {
+    width: 100%;
+    height: 344px;
+    background-color: #212429;
+}
+
+.container {
+    width: 1530px;
+    height: 55px;
+    margin: 0 54px;
+}
+
+.menu {
+    width: 60px;
+    height: 55px;
+    border-left: 1px solid #3c3c3c;
+    border-right: 1px solid #3c3c3c;
+    float: left;
+}
+
+a img {
+    width: 20px;
+    height: 13px;
+    margin: 20px;
+}
+
+a:hover i {
+    color: darkgray;
+    transition: 0.25s;
+}
+
+.logo {
+    display: block;
+    font-family: 'Hind', sans-serif;
+    font-size: 22px;
+    color: #fefefe;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    top: 21px;
+    left: 782px;
+}
+
+.logo img {
+    width: 76px;
+}
+
+.logo span {
+    margin-left: -2px;
+}
+
+.socials-right-column {
+    float: right;
+}
+
+.socials {
+    border-left: 1px solid #3c3c3c;
+    float: left;
+    height: 55px;
+    min-width: 49px;
+}
+
+.socials:last-child {
+    border-right: 1px solid #3c3c3c;
+}
+
+i {
+    font-size: 15px;
+    font-family: FontAwesome;
+    color: white;
+    margin: 20px 20px;
+}
