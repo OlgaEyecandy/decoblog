@@ -1,6 +1,48 @@
 @font-face {
     font-family: 'Hind';
     font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/hind-v8-latin-300.eot');
+    /* IE9 Compat Modes */
+    src: local('Hind Light'), local('Hind-Light'), url('../fonts/hind-v8-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/hind-v8-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/hind-v8-latin-300.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/hind-v8-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/hind-v8-latin-300.svg#Hind') format('svg');
+    /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/hind-v8-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local('Hind Regular'), local('Hind-Regular'), url('../fonts/hind-v8-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/hind-v8-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/hind-v8-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/hind-v8-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/hind-v8-latin-regular.svg#Hind') format('svg');
+    /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/hind-v8-latin-500.eot');
+    /* IE9 Compat Modes */
+    src: local('Hind Medium'), local('Hind-Medium'), url('../fonts/hind-v8-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/hind-v8-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/hind-v8-latin-500.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/hind-v8-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/hind-v8-latin-500.svg#Hind') format('svg');
+    /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Hind';
+    font-style: normal;
     font-weight: 600;
     src: url('../fonts/hind-v8-latin-600.eot');
     /* IE9 Compat Modes */
@@ -9,6 +51,48 @@
     url('../fonts/hind-v8-latin-600.woff') format('woff'), /* Modern Browsers */
     url('../fonts/hind-v8-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
     url('../fonts/hind-v8-latin-600.svg#Hind') format('svg');
+    /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/hind-v8-latin-700.eot');
+    /* IE9 Compat Modes */
+    src: local('Hind Bold'), local('Hind-Bold'), url('../fonts/hind-v8-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/hind-v8-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/hind-v8-latin-700.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/hind-v8-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/hind-v8-latin-700.svg#Hind') format('svg');
+    /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/montserrat-v12-latin-800.eot');
+    /* IE9 Compat Modes */
+    src: local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'), url('../fonts/montserrat-v12-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/montserrat-v12-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/montserrat-v12-latin-800.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/montserrat-v12-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/montserrat-v12-latin-800.svg#Montserrat') format('svg');
+    /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Mrs Saint Delafield';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/mrs-saint-delafield-v5-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local('Mrs Saint Delafield'), local('MrsSaintDelafield-Regular'), url('../fonts/mrs-saint-delafield-v5-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/mrs-saint-delafield-v5-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/mrs-saint-delafield-v5-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/mrs-saint-delafield-v5-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/mrs-saint-delafield-v5-latin-regular.svg#MrsSaintDelafield') format('svg');
     /* Legacy iOS */
 }
 
@@ -58,6 +142,7 @@ a:hover i {
 .logo {
     display: block;
     font-family: 'Hind', sans-serif;
+    font-weight: 600;
     font-size: 22px;
     color: #fefefe;
     text-transform: uppercase;
@@ -97,4 +182,91 @@ i {
     font-family: FontAwesome;
     color: white;
     margin: 20px 20px;
+}
+
+.banner {
+    width: 1530px;
+    height: 580px;
+    margin: 0 54px;
+    background: black url(../img/banner.png) no-repeat -53px -55px;
+    color: #ffffff;
+}
+
+.info {
+    width: 500px;
+    min-height: 117px;
+    margin: 225px 98px;
+    float: left;
+}
+
+.rubric {
+    font-family: 'Hind', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.2em;
+}
+
+.article-header {
+    font-family: 'Hind', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    line-height: 1.2em;
+    margin-top: 12px;
+}
+
+.slider {
+    width: 42px;
+    height: 255px;
+    position: relative;
+    top: 162px;
+    left: 1441px;
+    /*border: 1px solid white;*/
+}
+
+.points {
+    width: 50px;
+    height: 10px;
+    position: absolute;
+}
+
+.point {
+    width: 6px;
+    height: 6px;
+    border: 1px solid #ffffff;
+    margin-bottom: 10px;
+    position: relative;
+    top: 105px;
+}
+
+.slider-arrow {
+    width: 13px;
+    height: 26px;
+    position: relative;
+    left: 30px;
+}
+
+.slider-top {
+    background: url(../img/top.png) no-repeat 0px 0px;
+}
+
+.slider-name {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    float: right;
+    position: absolute;
+    top: 42px;
+    left: 27px;
+    text-align: center;
+    font-family: 'Hind';
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.slider-down {
+    background: url(../img/down.png) no-repeat 0px 0px;
+    top: 80%;
 }
